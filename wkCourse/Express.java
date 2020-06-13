@@ -28,6 +28,7 @@ public class Express{
       }
     }
     System.out.println("交易结束～");
+    inp.close();
     
   }
 }
