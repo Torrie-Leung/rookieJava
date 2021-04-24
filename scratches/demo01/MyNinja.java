@@ -6,9 +6,9 @@ public class MyNinja {
     public static void main(String[] args) {
         Ninja ninja = new Ninja();
         ninja.name = "Yoshi";
-        ninja.level = 23;
+        ninja.setLevel(23);
         System.out.println(ninja.name);
-        System.out.println(ninja.level);
+        System.out.println(ninja.getLevel());
         ninja.jump();
         ninja.walk();
         ninja.talk();
