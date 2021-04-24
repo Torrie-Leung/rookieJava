@@ -6,9 +6,7 @@ public class Ninja {
     int level;
 //    成员方法
 
-    public void walk() {
-        System.out.println("go go go！");
-    }
+    public void walk() { System.out.println("go go go！"); }
     public void jump() {
         System.out.println("jump up super high！");
     }

@@ -10,6 +10,8 @@ public class MyNinja {
         System.out.println(ninja.name);
         System.out.println(ninja.level);
         ninja.jump();
+        ninja.walk();
+        ninja.talk();
 
     }
 }
