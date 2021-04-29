@@ -4,6 +4,7 @@ public class Citation implements Cloneable{
 //    member variable
     private  String name;
     private  String gender;
+    private  int level;
 
     public String getName() {
         return name;
@@ -19,6 +20,19 @@ public class Citation implements Cloneable{
 
     public String getGender() {
         return gender;
+    }
+
+    public void setLevel(int level) {
+        if(level < 0){
+            System.out.println("you can't set minus level~");
+        }else {
+            this.level = level;
+        }
+
+    }
+
+    public Number getLevel() {
+        return level;
     }
 
     @Override

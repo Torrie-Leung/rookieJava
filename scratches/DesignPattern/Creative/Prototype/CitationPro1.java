@@ -8,9 +8,11 @@ public class CitationPro1 {
         Citation citation1 = citation.clone();
         citation.setName("Yoshi");
         citation.setGender("Pixie ");
+        citation.setLevel(23);
 
         citation1.setName("Peach ");
         citation1.setGender("Princess ");
+        citation1.setLevel(-1);
 
 //        use methods
         citation.show();
